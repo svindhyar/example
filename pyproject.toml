@@ -1,0 +1,24 @@
+[project]
+name = "example"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "svindhyar", email = "vindhyarsiri@gmail.com" }
+]
+requires-python = ">=3.14"
+dependencies = [
+    "ruff>=0.17.3",
+]
+
+[project.scripts]
+example = "example:main"
+
+[build-system]
+requires = ["uv_build>=0.13.6,<0.14.0"]
+build-backend = "uv_build"
+
+[tool.uv.workspace]
+members = [
+    "epita_your_login_fintech",
+]
