@@ -1,6 +1,6 @@
 [project]
-name = "epita_group0_fintech"
-version = "0.1.0"
+name = "epita_group0_fintech_vindhya"
+version = "0.1.1"
 description = "Add your description here"
 readme = "README.md"
 authors = [
@@ -21,3 +21,7 @@ build-backend = "uv_build"
 dev = [
     "pytest>=9.2.0",
 ]
+
+[project.scripts]
+epita-fintech-cli = "epita_group0_fintech_vindhya.cli:main"
+
