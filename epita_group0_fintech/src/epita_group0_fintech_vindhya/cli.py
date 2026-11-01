@@ -2,7 +2,7 @@
 from rich.console import Console
 from rich.panel import Panel
 from rich.table import Table
-from .client import fetch_live_data
+from epita_group0_fintech_vindhya.client import fetch_live_data
 
 console = Console()
 
