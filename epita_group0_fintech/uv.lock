@@ -115,7 +115,7 @@ wheels = [
 ]
 
 [[package]]
-name = "epita-your-login-fintech"
+name = "epita-group0-fintech"
 version = "0.1.0"
 source = { editable = "." }
 dependencies = [
