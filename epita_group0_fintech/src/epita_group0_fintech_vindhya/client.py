@@ -1,5 +1,5 @@
 import requests
-from .config import config
+from epita_group0_fintech_vindhya.config import config
 
 def fetch_live_data() -> dict:
     config.validate()
